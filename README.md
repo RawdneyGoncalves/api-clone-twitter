@@ -1,7 +1,7 @@
 # Desenvolvimento de uma aplicação em Node.Js, autenticação de tokens protegidos com JWT (Json Web Token)
 
 
- <img align="right" alt="n1ck-moji" width="128px" src="https://media.tenor.com/images/0c95b6e7c5d7fa56ea7b84f8b981d147/tenor.gif">
+ <img align="right" alt="n1ck-moji" width="128px"
 ## Recursos utilizados no desenvolvimento:
 
 - Node.Js;
