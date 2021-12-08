@@ -1,0 +1,15 @@
+.dividerline {
+  margin-top: 8px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-line {
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  width: 50%;
+}
+.right-line {
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  width: 50%;
+}
