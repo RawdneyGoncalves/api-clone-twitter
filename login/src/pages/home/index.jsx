@@ -6,18 +6,17 @@ import Facebookicon from "../../assets/icon/iconmonstr-facebook-4.svg";
 import Divider from "../../components/atomic/divider";
 import Text from "../../components/atomic/text";
 import "./style.css";
-import GoogleLogin from 'react-google-login'
-import FacebookLogin from 'react-facebook-login'
-import axios from "axios"
+import GoogleLogin from "react-google-login";
+import FacebookLogin from "react-facebook-login";
 import { Component } from "react";
 
 const Home = () => {
   const responseFacebook = (response) => {
     console.log(response);
-  }
+  };
   const responseGoogle = (response) => {
     console.log(response);
-  }
+  };
   return (
     <div className="mother-box">
       <div className="box-1">
@@ -31,15 +30,28 @@ const Home = () => {
           <Text title="Inscreva-se no twitter hoje mesmo." fontsize="32" />
           <GoogleLogin
             clientId="416272420598-4d0can060dgbofts5rq1g350gemuakrd.apps.googleusercontent.com"
-            buttonText="inscreva-se com o Google"
+            render={(renderProps) => (
+              <button
+                cssClass="my-google-button-class"
+                onClick={renderProps.onClick}
+                disabled={renderProps.disabled}
+              >
+                <img src={Googleicon} />
+                Entrar com o google
+              </button>
+            )}
             onSuccess={responseGoogle}
-            onFailure={responseGoogle} />
-          <FacebookLogin 
+            onFailure={responseGoogle}
+          />
+          <FacebookLogin
             appId="295428345832379"
             autoLoad={true}
             fields="name,email,picture"
             onClick={responseFacebook}
-            callback={responseFacebook} />,
+            callback={responseFacebook}
+            icon="fa-facebook"
+            cssClass="my-facebook-button-class"
+          />
 
           <Divider />
           <Button
