@@ -1,18 +1,20 @@
-const express = require('express');  
-const bodyParser = require('body-parser');
-const app = express(); 
-const routes = require('./routes');
-require('./database/index')
-app.use(express.json())
-app.use(routes); 
-try{
-   console.log("rodando na porta", 3030);
-    app.listen(3030);
+const express = require("express");
+const cors = require("cors");
+const app = express();
 
-}catch(error){
-
-console.log(error)
-
-}
+app.options('*', cors()) 
 
 
+const bodyParser = require("body-parser");
+
+
+const routes = require("./routes");
+require("./database/index");
+app.use(express.json());
+
+
+
+
+app.use(routes);
+console.log("rodando na porta", 3030);
+app.listen(3030);
