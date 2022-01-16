@@ -1,7 +1,6 @@
 # Desenvolvimento de uma aplicação em Node.Js, autenticação de tokens protegidos com JWT (Json Web Token)
 
 
- <img align="right" alt="n1ck-moji" width="128px"
 ## Recursos utilizados no desenvolvimento:
 
 - Node.Js;
