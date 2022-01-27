@@ -83,4 +83,5 @@ p.s.: no projeto, disponibilizei 2 maneiras de realizar a conexão de dados com 
 * **De maneira local**: utilizando o MongoDb;
 * **De maneira em cloud**: utilizando o mLab;
 
-Fiquem à vontade em usar ou até mesmo testar ambas as conexões!! :)  
+Fiquem à vontade em usar ou até mesmo testar ambas as conexões!! :)
+projeto desenvolvido a fins de estudos, cliente legado
