@@ -10,3 +10,5 @@ run npm install
 copy .. 
 
 expose 3000
+
+CMD []
