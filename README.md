@@ -85,3 +85,4 @@ p.s.: no projeto, disponibilizei 2 maneiras de realizar a conexão de dados com 
 
 Fiquem à vontade em usar ou até mesmo testar ambas as conexões!! :)
 projeto desenvolvido a fins de estudos, cliente legado
+OBS: Foi desenvolvido um Front-end, Junção de ambos: https://github.com/Gab096/Fontend-twitterclone
