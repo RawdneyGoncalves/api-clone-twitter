@@ -11,4 +11,4 @@ copy ..
 
 expose 3000
 
-CMD []
+CMD ["yarn", "start"]
