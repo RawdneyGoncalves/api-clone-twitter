@@ -24,7 +24,7 @@ module.exports = {
       return res.status(400).send(`Usuario já cadastrado: ${email}`);
     }
   },
-  //faz a autenticação
+  //faz a autenticação do usuario
   async authentication(req, res) {
     const { email, password, name } = req.body;
     try {
