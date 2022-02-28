@@ -4,7 +4,7 @@
 ## Recursos utilizados no desenvolvimento:
 
 - Node.Js;
-- Express.Js ~ v.4.0;
+- Express.Js ~ v.4.0
 - JWT;
 - MongoDb;
 - Mongoose ~4.x;
