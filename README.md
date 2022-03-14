@@ -1,4 +1,4 @@
-# Desenvolvimento de uma aplicação em Node.Js, autenticação de tokens protegidos com JWT (Json Web Token)
+# Desenvolvimento de uma aplicação em Node.Js, autenticação de tokens protegidos com JWT. (Json Web Token)
 
 
 ## Recursos utilizados no desenvolvimento:
