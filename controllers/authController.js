@@ -5,7 +5,7 @@ const User = require("../models/user");
 
 const router = express.Router();
 module.exports = {
-  //registrar usuario
+
   async create(req, res) {
 
     const { email, password } = req.body;
@@ -24,7 +24,6 @@ module.exports = {
       return res.status(400).send(`Usuario já cadastrado: ${email}`);
     }
   },
-  //faz a autenticação do usuario e compara
   async authentication(req, res) {
     const { email, password, name } = req.body;
     try {
@@ -47,7 +46,6 @@ module.exports = {
   async busca(req, res) {
     User.findById(req.params.id, function (err, user) {
       if (err) res.send(err);
-      // retorna o usuário desejado.
       return res.json(user);
     });
   },
