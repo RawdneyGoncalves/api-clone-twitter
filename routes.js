@@ -3,10 +3,10 @@ const routes = express.Router();
 
 const authController = require('./controllers/authController');
 
-routes.post('/register', authController.create)
+routes.post('/register', authController.create);
 
-routes.get('/users', authController.showall)
+routes.get('/users', authController.showall);
 
-routes.post('/login', authController.authentication)
+routes.post('/login', authController.authentication);
 
 module.exports = routes; 
