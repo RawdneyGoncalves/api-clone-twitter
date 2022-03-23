@@ -23,7 +23,7 @@ poder testar cada API criada!
 
 Caso você deseja executar o projeto na sua máquina local, basta seguir os passos abaixo:
 
-## Começando...
+## Começando..
 
 Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina e instalar as dependências.
 
