@@ -1,8 +1,6 @@
 const express = require("express");
 const bcrypt = require("bcrypt");
-
 const User = require("../models/user");
-
 exports.authentication = async (req, res) => {
 
   try {
@@ -16,7 +14,7 @@ exports.authentication = async (req, res) => {
       res
         .status(400)
         .send(
-          "login ou senha errada, por-favor verifique e tente novamente."
+          "login ou senha errada, por-favor verifique e tente novamente!"
         );
 
     return res.json({ message: "logado, bem-vindo senhor: " + user.email || user.name });
