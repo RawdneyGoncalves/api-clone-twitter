@@ -13,8 +13,8 @@ require("./database/index");
 app.use(express.json());
 
 
-
+const PORT = process.env.PORT || 3030
 
 app.use(routes);
-console.log("rodando na porta", 3030);
-app.listen(3030);
+console.log("Rodando na porta:", PORT);
+app.listen(PORT);
