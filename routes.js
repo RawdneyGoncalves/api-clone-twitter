@@ -6,9 +6,11 @@ const UserController = require ('./controllers/UserController')
 
 routes.post('/register', UserController.createUser);
 
-//routes.get('/users', authController.showall);
+routes.get('/users', UserController.updateUser);
+
+routes.get('/delete', UserController.deleteUser);
+
 
 routes.post('/login', authController.authentication);
 
 module.exports = routes; 
-
