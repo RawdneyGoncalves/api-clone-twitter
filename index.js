@@ -4,10 +4,6 @@ const app = express();
 
 app.options('*', cors()) 
 
-
-const bodyParser = require("body-parser");
-
-
 const routes = require("./routes");
 require("./database/index");
 app.use(express.json());
