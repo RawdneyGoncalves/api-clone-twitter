@@ -86,3 +86,5 @@ p.s.: no projeto, disponibilizei 2 maneiras de realizar a conexão de dados com 
 Fiquem à vontade em usar ou até mesmo testar ambas as conexões!! :)
 projeto desenvolvido a fins de estudos, cliente legado
 OBS: Foi desenvolvido um Front-end, Junção de ambos: https://github.com/Gab096/Fontend-twitterclone
+
+Link da API pegando juntamente com o front-end: https://www.linkedin.com/posts/gabrielnogueira0000_reactjs-nodejs-javascript-ugcPost-6899493490452238336-yfKG?utm_source=linkedin_share&utm_medium=member_desktop_web
